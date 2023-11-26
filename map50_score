@@ -1,0 +1,55 @@
+# CONF_THRES : 0.35 / IOU_THRES : 0.5
+# CONF_THRES : 0.3 / IOU_THRES : 0.65
+
+
+[ 1280 ]
+SW last_ckpt.pt : map50 :0.6409546726009744 0.35/ 0.5
+                  map50 :0.6620497201065214  0.3/ 0.65
+
+last_ckpt.pt : map50 :0.5822325226584717 0.35/0.5
+               map50 :0.6041059559331927 0.3/0.65
+
+
+[ 960 ]
+SC last.ckpt.pt : map50 :0.6235815346603368
+SC best.ckpt.pt : map50 :0.5109042344202441
+
+SW last.ckpt.pt : map50 :0.6704185958514767 ( epoch : 100 ) 0.3 / 0.65
+                  map50 :0.6517528327341208 ( epoch : 100 ) 0.35 / 0.5
+
+SW last.ckpt.pt : map50 :0.6723684242536815 ( epoch : 130 ) 0.35 / 0.5
+                  map50 :0.6544840174434798 ( epoch : 130 ) 0.3 / 0.65
+
+SW last.ckpt.pt : map50 :0.6542207936697477 ( epoch : 150 ) 0.35 / 0.5
+                  map50 :0.673607784279699 ( epoch : 150 ) 0.3 / 0.65
+
+SW best.ckpt.pt : map50 :0.562483581012699
+
+CW last.ckpt.pt : map50 :0.37863267683985613
+CW best.ckpt.pt : map50 :0.34499846896066244
+
+last_ckpt.pt : map50 :0.6544840174434798
+
+
+
+[ 640 ]
+SC last.ckpt.pt : map50 :0.5292692311885309
+SC best.ckpt.pt : map50 :0.25143034685348387
+
+SW last.ckpt.pt : map50 :0.5384970465964616
+SW best.ckpt.pt : map50 :0.37400228432356775
+
+CW last.ckpt.pt : map50 :0.5401412749033826
+CW best.ckpt.pt : map50 :0.5407165331400376
+
+last_ckpt.pt : map50 :0.5672405496725141
+
+6s / coco /
+
+
+
+
+ours HARD : 0.67 (960)
+ours HARD : 0.596 (640)
+6s HARD : 0.597
+ours MEDIUM : 0.64
